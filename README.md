@@ -7,7 +7,7 @@ This project is an extension of the work I've done the past two years with regar
 
 **Currently only Linux systems running Python 3 are supported.** I don't really want to deal with memory in Windows, I've had enough of that :D
 
-I will probably write some sort of documentation or paper to actually explain what each Python script does. Stay tuned.
+I will probably write some sort of documentation or paper to actually combine all these years together and create a comprehensive ransomware defense. Stay tuned.
 
 ## Prerequisites
 Your system should be running a GNU/Linux operating system, preferrably Ubuntu 22.04 LTS. Python 3+ should be installed.
