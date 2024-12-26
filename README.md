@@ -44,11 +44,13 @@ I may have forgotten something as these dependencies probably depend on other th
 
 `CNN.py` - Creates and trains a CNN to identify AES keys in memory.
   Parameters:
+  - `DATABASE_FILE`: the name of the dataset to import from, surround with double quotes and should be a `.csv` file.
   - `BATCH_SIZE`: size of batch
   - `LEARNING_RATE`: rate of learning
   - `MAX_EPOCHS`: epochs to run training for
   - `INPUT_LENGTH`: length of input, memory dumps can get quite large, input will always contain a key randomly spaced within the memory dump
   - `DEVICE`: GPU to accelerate training or just plain old CPU
+  - `KEY_LENGTH`: Maximum key length of AES keys in the dataset, shorter keys will be padded and loss masking applied
 
 `test.py` - Tests the efficacy of the model.
   Parameters:
